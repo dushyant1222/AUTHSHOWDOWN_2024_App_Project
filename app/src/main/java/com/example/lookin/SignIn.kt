@@ -206,7 +206,6 @@ class SignIn : AppCompatActivity() {
 
         binding.LoginButton.setOnClickListener {
             userLogin()
-            loginWithGoogle()
         }
         binding.goolelogin.setOnClickListener{
             loginWithGoogle()

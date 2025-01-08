@@ -66,15 +66,6 @@
 
     </TextView>
 
-    <ImageButton
-        android:id="@+id/goolelogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/outlookk"
-        android:layout_gravity="center"
-        android:contentDescription="@string/outlook"
-        android:layout_marginTop="15dp">
-    </ImageButton>
 
 
 

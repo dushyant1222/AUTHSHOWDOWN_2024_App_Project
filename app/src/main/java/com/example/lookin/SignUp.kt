@@ -1,19 +1,28 @@
 package com.example.lookin
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.lookin.databinding.ActivitySignUpBinding
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.tasks.Task
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.auth
 
 class SignUp : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivitySignUpBinding
+    private lateinit var googleSignInClient: GoogleSignInClient
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySignUpBinding.inflate(layoutInflater)
@@ -21,6 +30,7 @@ class SignUp : AppCompatActivity() {
         auth = Firebase.auth
 
         binding.signUpbtn.setOnClickListener { CorrectInfo() }
+
 
 //            intent = Intent(applicationContext, SignIn::class.java)
 //            startActivity(intent)
@@ -74,6 +84,7 @@ class SignUp : AppCompatActivity() {
             else -> true
         }
     }
+
 }
 
 
