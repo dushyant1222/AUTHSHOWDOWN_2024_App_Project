@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006BCE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/techAnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/heading"
+        android:textColor="@color/white"
+        android:textSize="50sp">
+    </TextView>
+
+
+
+   <ImageView
+       android:id="@+id/iit_image"
+       android:layout_width="300dp"
+       android:layout_height="300dp"
+       android:src="@drawable/iit_patna"
+       android:layout_gravity="center"
+       android:layout_marginTop="70dp"
+       android:contentDescription="@string/icon">
+
+   </ImageView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/AliceBlue"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_marginTop="30dp">
+
+    </ProgressBar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iit_line"
+        android:textColor="@color/Yellow"
+        android:textSize="35sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="35dp"
+        android:fontFamily="serif">
+    </TextView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006BCE"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/heading"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"></TextView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/iit_patna" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iit_line"
+        android:textColor="@color/White"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp"
+        android:fontFamily="serif">
+    </TextView>
+
+    <Button
+        android:id="@+id/Login_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/login"
+        android:textSize="30sp"
+        android:background="@drawable/button_effect"
+        android:fontFamily="serif"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+    </Button>
+
+
+    <TextView
+        android:id="@+id/new_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_here"
+        android:layout_gravity="center"
+        android:contextClickable="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/goolelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/outlookk"
+        android:layout_gravity="center"
+        android:contentDescription="@string/outlook"
+        android:layout_marginTop="15dp">
+    </ImageButton>
+
+
+
+
+
+
+
+
+</LinearLayout>

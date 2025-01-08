@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LOOK IN</string>
+    <string name="heading">TECH CLUB</string>
+    <string name="iit_line">Best place to Explore</string>
+    <string name="login">Login</string>
+    <string name="icon">icon</string>
+    <string name="new_here">New Here ? Sign Up</string>
+    <string name="or">Or</string>
+    <string name="user_id">Email id</string>
+    <string name="explore">Log in and get to explore</string>
+    <string name="agreement">Agree terms and policy</string>
+    <string name="password">Password</string>
+    <string name="forget">Forget Password</string>
+    <string name="log">Log In</string>
+    <string name="on_board">Get on board</string>
+    <string name="conditions">Accept terms and Conditions</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="google_signin">Sign Up using</string>
+    <string name="google_login">google search engine</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email id</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_otp">Enter the OTP\nWe have sent you on the following email</string>
+    <string name="resend">DIdn\'t receive the OTP ? Resend OTP</string>
+    <string name="done">Done</string>
+    <string name="default_web_client_id" translatable="false">768595080924-un9knracslhagh48v8s0sp89mjmf46vd.apps.googleusercontent.com</string>
+    <string name="sign_in">Sign in</string>
+    <string name="log_in">Log In</string>
+    <string name="outlook">Outlook</string>
+</resources>

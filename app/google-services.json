@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "768595080924",
+    "project_id": "look-in-5fa8e",
+    "storage_bucket": "look-in-5fa8e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768595080924:android:54609732c7ceabe794a619",
+        "android_client_info": {
+          "package_name": "com.example.lookin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkREJ6Kx7euwmpXSJpe1MQKI3ktLzeFJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#006BCE"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/heading"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/on_board"
+        android:textColor="@color/White"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:hint="@string/name"
+        android:drawableStart="@drawable/baseline_person_4_24"
+        android:textSize="20sp"
+        android:drawablePadding="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:inputType="text"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/signup_effect">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:hint="@string/email_id"
+        android:background="@drawable/signup_effect"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/baseline_person_4_24"
+        android:drawablePadding="30dp"
+        app:helperText="Required"
+        android:autofillHints="emailAddress"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:padding="20dp"
+        android:ems="15"
+        android:inputType="textEmailAddress" >
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="@string/password"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signup_effect"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="50dp"
+        app:endIconMode="password_toggle">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmLock"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColorHint="@color/Black"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:drawablePadding="30dp"
+            android:drawableStart="@drawable/lock"
+            app:helperText="*Required">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/conditions"
+        android:layout_marginStart="40dp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/sign_upbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_effect"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30sp">
+
+    </Button>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/google_signin"
+           android:layout_gravity="center"
+           android:textStyle="bold"
+           android:textSize="18sp"
+           android:layout_marginTop="40dp"
+           android:textColor="@color/white"
+           android:fontFamily="serif">
+       </TextView>
+    <ImageButton
+        android:id="@+id/outlook_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/outlook"
+        android:src="@drawable/outlookk">
+
+    </ImageButton>
+
+
+
+</LinearLayout>

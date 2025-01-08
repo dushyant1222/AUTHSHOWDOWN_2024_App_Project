@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#006BCE"
+    android:layout_height="match_parent"
+    tools:context=".HomeActitvity">
+    <Button
+        android:id="@+id/homeout"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Sign Out"
+        android:background="@drawable/signup_effect"
+        android:layout_marginStart="300dp">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/android_app"
+        android:padding="40dp">
+
+    </ImageView>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Home Page "
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="100dp">
+
+        </TextView>
+
+
+
+
+</LinearLayout>
